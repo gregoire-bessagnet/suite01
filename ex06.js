@@ -67,3 +67,4 @@ console.log(getHumanTypeByAge(-1));
 console.log(getHumanTypeByAge(6));
 console.log(getHumanTypeByAge(17));
 console.log(getHumanTypeByAge(33));
+console.log(getHumanTypeByAge(140));
