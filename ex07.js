@@ -24,9 +24,9 @@ boostedAddition([4, 4, 6, 8, 10, 12]);
 //  écrire votre code sous ce commentaire
 
 function boostedAddition(array){
-    for (let i in array) {
-        var result = i++;
-    }
+    for (i=0; i < array.lenght; i++) {
+        var result = i+=i;
+    };
     return result;
 };
 
