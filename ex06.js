@@ -16,6 +16,14 @@
     et nous attendons comme résultat "impossible... ou encore jamais vu";
 */
 
+getHumanTypeByAge(-5);
+
+/*      Test 2
+    Appel à la fonction "getHumanTypeByAge",
+    prenant en paramètre le nombre 6,
+    et nous attendons comme résultat "enfant";
+*/
+
 getHumanTypeByAge(6);
 
 /*      Test 3
@@ -45,11 +53,5 @@ getHumanTypeByAge(140);
 //  écrire votre code sous ce commentaire
 
 function getHumanTypeByAge(age){
-    if (age < 12);
-        return "enfant";
-    if (age >= 12 && age < 18);
-        return "ado";
+    
 };
-
-console.log(getHumanTypeByAge(6));
-console.log(getHumanTypeByAge(17));
