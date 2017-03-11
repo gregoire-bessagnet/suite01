@@ -16,7 +16,7 @@
     et nous attendons comme résultat "impossible... ou encore jamais vu";
 */
 
-getHumanTypeByAge(-5);
+getHumanTypeByAge(6);
 
 /*      Test 2
     Appel à la fonction "getHumanTypeByAge",
