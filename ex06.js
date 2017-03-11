@@ -59,8 +59,11 @@ function getHumanTypeByAge(age){
         return "enfant";
     else if (age >= 12 && age < 18)
         return "ado";
+    else if (age >= 18 && age < 124)
+        return "adulte";
 };
 
 console.log(getHumanTypeByAge(-1));
 console.log(getHumanTypeByAge(6));
 console.log(getHumanTypeByAge(17));
+console.log(getHumanTypeByAge(33));
