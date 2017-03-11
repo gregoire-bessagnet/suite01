@@ -18,14 +18,6 @@
 
 getHumanTypeByAge(6);
 
-/*      Test 2
-    Appel à la fonction "getHumanTypeByAge",
-    prenant en paramètre le nombre 6,
-    et nous attendons comme résultat "enfant";
-*/
-
-getHumanTypeByAge(6);
-
 /*      Test 3
     Appel à la fonction "getHumanTypeByAge",
     prenant en paramètre le nombre 17,
