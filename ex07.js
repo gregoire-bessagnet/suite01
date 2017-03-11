@@ -24,11 +24,11 @@ boostedAddition([4, 4, 6, 8, 10, 12]);
 //  écrire votre code sous ce commentaire
 
 function boostedAddition(array){
-    total = 0;
-    for (let i of array){
-        i++;
-    };
-    total += array[i];
+    for (i = 0; i <= array.lenght; i++){
+        return 
+    }
+    var result = array[i]; 
+    return result;
 };
 
 console.log(boostedAddition([4, 5, 6]));
