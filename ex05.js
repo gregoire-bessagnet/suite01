@@ -24,3 +24,12 @@ isEvenConcat(6);
 isEvenConcat(5);
 
 //  écrire votre code sous ce commentaire
+
+function isEventConcat(number){
+    if (number %2 == 0)
+        return "#{number} est pair";
+    return "#{number} est impar";
+};
+
+console.log(isEvenConcat(6));
+console.log(isEvenConcat(5));
