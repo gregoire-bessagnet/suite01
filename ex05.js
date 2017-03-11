@@ -27,8 +27,8 @@ isEvenConcat(5);
 
 function isEvenConcat(number){
     if (number %2 == 0)
-        return number + "est pair";
-    return number + "est impar";
+        return number + " est pair";
+    return number + " est impair";
 };
 
 console.log(isEvenConcat(6));
