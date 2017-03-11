@@ -60,4 +60,4 @@ function getHumanTypeByAge(age){
 };
 
 console.log(getHumanTypeByAge(6));
-console.log(getHumanTypeByAge(12));
+console.log(getHumanTypeByAge(17));
