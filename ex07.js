@@ -28,7 +28,7 @@ function boostedAddition(array){
     for (let i of array){
         i++;
     };
-    total += arr[i];
+    total += array[i];
 };
 
 console.log(boostedAddition([4, 5, 6]));
