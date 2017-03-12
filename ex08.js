@@ -31,3 +31,8 @@ isAllEven([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
 
+function isAllEven(array){
+
+}; 
+
+return 
