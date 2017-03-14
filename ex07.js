@@ -23,16 +23,16 @@
 
 //  écrire votre code sous ce commentaire
 
-
-
 function boostedAddition(array){
-
-for (let i = 0; i < array.length; i += 1){
-    var sum = array[i] + i;
-}
-    return sum;
+    var total = 0;
+    for (let i = 0; i < array.length; i++) {
+    total += array[i]
+    };
+ return total;
 };
+
 console.log(boostedAddition([4, 5, 6]));
+console.log(boostedAddition([4, 4, 6, 8, 10, 12]));
 
 
 

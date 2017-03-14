@@ -35,4 +35,10 @@ function isAllEven(array){
 
 }; 
 
+
+function isEven(number){
+
+};
+
+
 return 
